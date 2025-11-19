@@ -1,0 +1,59 @@
+# ---------------------------
+# OS Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------
+# Editor / IDE Settings
+# ---------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------
+# PHP / Composer (future-proofing)
+# ---------------------------
+vendor/
+composer.lock
+composer.phar
+
+# ---------------------------
+# Logs & Temporary Files
+# ---------------------------
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+*.orig
+
+# ---------------------------
+# Environment / Credentials
+# ---------------------------
+.env
+.env.local
+.env.*.local
+
+# ---------------------------
+# Node (in case the project later adds tooling)
+# ---------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ---------------------------
+# Build / Dist (optional tooling)
+# ---------------------------
+dist/
+build/
+
+# ---------------------------
+# Database / Exports (if you don't want these tracked)
+# Uncomment if needed
+# *.sql
+# *.db
+# *.sqlite
+# dump.sql
